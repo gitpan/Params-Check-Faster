@@ -16,7 +16,7 @@ BEGIN {
     @ISA        =   qw[ Exporter ];
     @EXPORT_OK  =   qw[check allow last_error];
 
-    $VERSION                = '0.01';
+    $VERSION                = '0.02';
     $VERBOSE                = $^W ? 1 : 0;
     $NO_DUPLICATES          = 0;
     $STRIP_LEADING_DASHES   = 0;
@@ -729,16 +729,12 @@ Default is 0;
 =head1 AUTHOR
 
 This module by
-Jos Boumans E<lt>kane@cpan.orgE<gt>.
-
-=head1 Acknowledgements
-
-Thanks to Richard Soderberg for his performance improvements.
+Damien "dams" Krotkine E<lt>dams@cpan.orgE<gt>.
 
 =head1 COPYRIGHT
 
 This module is
-copyright (c) 2003,2004 Jos Boumans E<lt>kane@cpan.orgE<gt>.
+copyright (c) 2007 Damien "dams" Krotkine E<lt>dams@cpan.orgE<gt>.
 All rights reserved.
 
 This library is free software;
